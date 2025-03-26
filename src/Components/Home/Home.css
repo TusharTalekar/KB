@@ -1,0 +1,17 @@
+@import "tailwindcss";
+/* body{
+    background-color: white;
+} */
+nav::before{
+    content: "";
+    background: rgb(252, 200, 0);
+    /* background: white; */
+    background: rgb(255,233,88);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    /* opacity: .5; */
+}

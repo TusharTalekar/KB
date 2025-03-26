@@ -1,0 +1,81 @@
+@import "tailwindcss";
+/* Crd.css  */
+
+.card {
+    width: 70vw;
+    height: 70vh;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* background-color: white; */
+}
+
+.book-img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.right {
+    flex: 2;
+    padding: 20px;
+    /* background-color: white; */
+}
+
+.book-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.price {
+    color: green;
+    /* background-color: white; */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 14px;
+    /* background-color: white; */
+    margin-bottom: 10px;
+}
+
+.quality {
+    margin-top: 10px;
+    /* background-color: white; */
+}
+
+.stars {
+    font-size: 20px;
+    color: gold;
+    /* background-color: white; */
+}
+
+.add-to-cart {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.add-to-cart:hover {
+    background-color: darkorange;
+}
